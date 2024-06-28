@@ -5,6 +5,7 @@ console.log(mailList)
 // CREAZIONE VARIABILE USER E ASSEGNAZIONE VALORE  UGUALE A PROMPT//
 let user = prompt("inserisci la tua email").toLowerCase()
 
+let authorization = false;
 
 for (let i = 0; i < mailList.length; i++) {
     if (mailList[i] === user) {
