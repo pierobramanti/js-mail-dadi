@@ -6,3 +6,8 @@ console.log(mailList)
 let user = prompt("inserisci la tua email").toLowerCase()
 
 
+for (let i = 0; i < mailList.length; i++) {
+    if (mailList[i] === user) {
+        authorization = true;
+    }
+}
