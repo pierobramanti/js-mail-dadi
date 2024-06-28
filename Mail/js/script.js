@@ -12,3 +12,9 @@ for (let i = 0; i < mailList.length; i++) {
         authorization = true;
     }
 }
+
+if (authorization === true) {
+    alert("accesso consentito")
+} else {
+    alert("accesso negato")
+}
